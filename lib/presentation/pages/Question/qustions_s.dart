@@ -187,8 +187,8 @@ class _QuestionDetailPageState extends State<QuestionDetailPage> {
                 },
                 child: AnimatedContainer(
                   duration: Duration(milliseconds: 300),
-                  padding: EdgeInsets.all(screenWidth * 0.04), // Adjust padding
-                  margin: EdgeInsets.only(bottom: screenHeight * 0.02), // Adjust margin
+                  padding: EdgeInsets.all(screenWidth * 0.04),
+                  margin: EdgeInsets.only(bottom: screenHeight * 0.02), 
                   decoration: BoxDecoration(
                     color: selectedOption == i
                         ? (question.options[i].isCorrect
@@ -205,7 +205,7 @@ class _QuestionDetailPageState extends State<QuestionDetailPage> {
                       Text(
                         '${String.fromCharCode(65 + i)}. ${question.options[i].description}',
                         style: TextStyle(
-                          fontSize: screenWidth > 400 ? 14 : 12, // Smaller text size for options
+                          fontSize: screenWidth > 400 ? 14 : 12,
                         ),
                       ),
                       Spacer(),
