@@ -1,0 +1,39 @@
+name: empapp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  ionicons: ^0.2.2
+  iconsax: ^0.0.8
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  animated_text_kit: ^4.2.2
+  get: ^4.6.6
+  provider: ^6.1.2
+  flutter_circular_progress_indicator: ^0.0.3
+  vibration: ^3.0.0
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Adding assets to the project
+  assets:
+    - assets/ # Make sure this folder exists in your project
+    # - google_fonts/ # This folder must also exist, or remove this line
+    
+
