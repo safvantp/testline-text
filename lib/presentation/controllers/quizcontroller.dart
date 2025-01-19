@@ -7,7 +7,7 @@ class PromoController extends GetxController {
   var quizzes = <Quiz>[].obs; 
   var isLoading = true.obs;   
   var error = ''.obs;        
-  var notificationCount = 10.obs; // Make sure it's an observable value
+  var notificationCount = 10.obs;
 
   @override
   void onInit() {
@@ -23,7 +23,7 @@ class PromoController extends GetxController {
       if (response.statusCode == 200) {
         final data = json.decode(response.body);
         if (data != null) {
-          quizzes.assignAll([Quiz.fromJson(data)]); // Update quizzes
+          quizzes.assignAll([Quiz.fromJson(data)]); 
         }
       } else {
         error('Failed to load quiz data');
