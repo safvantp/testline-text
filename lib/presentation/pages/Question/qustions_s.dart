@@ -131,7 +131,6 @@ class _QuestionDetailPageState extends State<QuestionDetailPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Timer Display
             Container(
               padding: EdgeInsets.symmetric(horizontal: screenWidth * 0.05),
               alignment: Alignment.centerRight,
