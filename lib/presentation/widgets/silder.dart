@@ -79,7 +79,6 @@ class _PremiumSliderState extends State<PremiumSlider> {
               ),
             ],
           ),
-          // Image Slider
           SizedBox(
             height: 200,
             width: 200,
